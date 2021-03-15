@@ -1,0 +1,15 @@
+
+<!-- saved from url=(0062)http://sydney.edu.au/engineering/it/~scilect/sherlock/Makefile -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><style type="text/css"></style></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">CC = gcc
+CFLAGS = -Wall -ansi -pedantic -O2
+DEBUG = -d
+
+all:	sig comp
+
+sig:	sig.c
+	$(CC) $(CFLAGS) -o sig sig.c
+
+comp:	comp.c
+	$(CC) $(CFLAGS) -o comp comp.c
+
+</pre></body></html>
